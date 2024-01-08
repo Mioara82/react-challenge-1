@@ -1,0 +1,120 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.red {
+  color: #ef476f;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 12px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: #d9d9d9;
+  opacity: 0.4;
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  color: white;
+}
+
+.svg-wrapper {
+  width: 32px;
+  height: 32px;
+  background-color: #ef476f;
+  border-radius: 8px;
+  display: flex;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.button {
+  width: 40%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.dark {
+  background: #ef476f;
+  color: white;
+}
+
+.light {
+  background: white;
+  color: #ef476f;
+  border: 1px solid #ef476f;
+}
+
+.image-content {
+  width: 40%;
+}
